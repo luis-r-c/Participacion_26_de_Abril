@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('fondo.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form-inicial {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-inicial h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.form-inicial h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.form-inicial p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-inicial a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-inicial a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-inicial .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.form-register {
+  width: 600px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.form-register h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+    background: #04a8bf;
+    box-shadow: 0px 5px 0 #0491a5;
+    /* estilos tipograficos */
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+ 
+    /* padding, margin y borde */
+ 
+    padding: 5px 40px;
+    margin-right: 30px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 50px;
+ 
+    /* propiedades para la animacion  */
+ 
+    transition: all 0.20s linear;
+    -webkit-transition: all 0.20s linear;
+    -moz-transition: all 0.20s linear;
+    position: relative;
+    bottom: 0;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #ffffff;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+
+
+
+.listado {
+  width: 700px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.listado h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.listado h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.listado p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.listado a {
+  color: white;
+  text-decoration: none;
+}
+
+.listado a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.listado .botons {
+    
+    background: #04a8bf;
+    box-shadow: 0px 5px 0 #0491a5;
+    /* estilos tipograficos */
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+ 
+    /* padding, margin y borde */
+ 
+    padding: 5px 40px;
+    margin-right: 30px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 50px;
+ 
+    /* propiedades para la animacion  */
+ 
+    transition: all 0.20s linear;
+    -webkit-transition: all 0.20s linear;
+    -moz-transition: all 0.20s linear;
+    position: relative;
+    bottom: 0;
+}
+
+.listado table {
+	background-color: #222033;
+	border-collapse: collapse;
+	border-radius: 10px;
+	font-size: 1em;
+	color: white;
+	overflow: hidden;
+	width: auto;
+	/*max-width: 100%;*/
+}
+
+.listado th {
+	letter-spacing: 0.3px;
+	text-shadow: 0 1px 1px #2b2a466b;
+}
+.listado table > thead > tr > th {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.listado td {
+	background-color: #3d3b63;
+	color: white;
+}
+.listado td strong {
+	color: white;
+}
+.listado td,
+.listado th {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 11px;
+}
+.listado thead th:hover,
+.listado thead tr:hover,
+.listado th:hover {
+    /*background-color: #f3646c;/*/
+}
+.listado tbody tr:hover td,
+.listado tbody tr:hover td a {
+	background-color: #3c991a;
+	color: white;
+}
+/* --------------------------------------------   */
